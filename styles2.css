@@ -1,0 +1,58 @@
+body{
+	background-size: cover;
+}
+body#darkbg{
+	color: white;
+}
+section.info{
+	text-align: center;
+	font-family: Tahoma;
+}
+section.credits{
+	width: 300px;
+	vertical-align: top;
+	display: inline-block;
+}
+h2{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+table{
+	min-width: 20%;
+}
+td:first-of-type{
+	width: 125px;
+	padding-right: 5px;
+}
+th{
+	text-align: center;
+	font-size: 1.2em;
+}
+#summary{
+	font-style: italic;
+}
+.wrap{
+	display: inline-block;
+}
+@media screen and (max-width: 1196px){
+	section.credits{
+		border: 1px solid black;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.wrap {
+	    position: relative;
+	    width: 100%;
+	    height: 0;
+	    padding-bottom: 55%;
+	}
+	#youtube {
+	   	position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+}

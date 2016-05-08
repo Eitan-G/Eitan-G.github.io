@@ -1,0 +1,17 @@
+body {
+	background-color: #ccc;
+}
+
+.logo {
+	text-align: center;
+}
+
+.filmtable{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+a:visited{
+	color: #800020;
+}
