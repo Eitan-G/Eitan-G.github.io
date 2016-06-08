@@ -6,11 +6,24 @@ body {
 	text-align: center;
 }
 
-.filmtable{
+table{
 	margin-left: auto;
 	margin-right: auto;
+	border: 4px;
+	border-style: outset;
 }
-
+td, th{
+	border: 1px;
+	border-style: inset;
+}
+td:nth-child(2){
+	width: 35px;
+	padding: 0 3px 0 3px;
+	text-align: center;
+}
+td:first-child{
+	padding: 0 3px 0 3px;
+}
 a:visited{
 	color: #800020;
 }

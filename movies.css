@@ -10,6 +10,24 @@ body{
 	-1px 1px #000, 0px -1px #000, 0px 1px #000,
 	1px -1px #000, 1px 0px #000, 1px 1px #000;
 }
+body#gotf{
+	background-image: url('gotf.png');
+}
+body#howl{
+	background-image: url('howl.jpg');
+}
+body#totoro{
+	background-image: url('totoro.jpg');
+}
+body#mononoke{
+	background-image: url('mononoke.jpg');
+}
+body#spiritedaway{
+	background-image: url('spiritedaway.jpg');
+}
+body#ponyo{
+	background-image: url('ponyo.jpg');
+}
 section.info{
 	margin-top: 10px;
 	text-align: center;
