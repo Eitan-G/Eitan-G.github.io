@@ -1,5 +1,8 @@
 body {
 	background-color: #ccc;
+	font-family: 'Century Gothic';
+	font-variant: small-caps;
+	font-size: 1.5em;
 }
 
 .logo {
@@ -11,6 +14,8 @@ table{
 	margin-right: auto;
 	border: 4px;
 	border-style: outset;
+	font-variant: initial;
+	font-size: .7em;
 }
 td, th{
 	border: 1px;
@@ -22,7 +27,10 @@ td:nth-child(2){
 	text-align: center;
 }
 td:first-child{
-	padding: 0 3px 0 3px;
+	padding: 0 3px 3px 3px;
+}
+td:last-child{
+	text-align: center;
 }
 a:visited{
 	color: #800020;
