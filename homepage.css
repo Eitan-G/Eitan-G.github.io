@@ -4,11 +4,9 @@ body {
 	font-variant: small-caps;
 	font-size: 1.5em;
 }
-
 .logo {
 	text-align: center;
 }
-
 table{
 	margin-left: auto;
 	margin-right: auto;
@@ -16,21 +14,15 @@ table{
 	border-style: outset;
 	font-variant: initial;
 	font-size: .7em;
+	text-align: center;
 }
 td, th{
 	border: 1px;
 	border-style: inset;
-}
-td:nth-child(2){
-	width: 35px;
 	padding: 0 3px 0 3px;
-	text-align: center;
 }
 td:first-child{
-	padding: 0 3px 3px 3px;
-}
-td:last-child{
-	text-align: center;
+	text-align: left;
 }
 a:visited{
 	color: #800020;
