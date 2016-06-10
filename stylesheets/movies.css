@@ -10,30 +10,30 @@ body{
 	-1px 1px #000, 0px -1px #000, 0px 1px #000,
 	1px -1px #000, 1px 0px #000, 1px 1px #000;
 }
-body#gotf{
+#gotf{
 	background-image: url('../images/backgrounds/gotf.png');
 }
-body#howl{
+#howl{
 	background-image: url('../images/backgrounds/howl.jpg');
 }
-body#totoro{
+#totoro{
 	background-image: url('../images/backgrounds/totoro.jpg');
 }
-body#mononoke{
+#mononoke{
 	background-image: url('../images/backgrounds/mononoke.jpg');
 }
-body#spiritedaway{
+#spiritedaway{
 	background-image: url('../images/backgrounds/spiritedaway.jpg');
 }
-body#ponyo{
+#ponyo{
 	background-image: url('../images/backgrounds/ponyo.jpg');
 }
-section.info{
+.info{
 	margin-top: 10px;
 	text-align: center;
 	font-family: Tahoma;
 }
-section.credits{
+.credits{
 	width: 300px;
 	vertical-align: top;
 	display: inline-block;
@@ -64,7 +64,7 @@ header.navbar{
 	display: inline-block;
 }
 @media screen and (max-width: 1196px){
-	section.credits{
+	.credits{
 		border: 1px solid black;
 		display: block;
 		margin-left: auto;
