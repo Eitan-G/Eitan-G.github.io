@@ -11,22 +11,22 @@ body{
 	1px -1px #000, 1px 0px #000, 1px 1px #000;
 }
 body#gotf{
-	background-image: url('gotf.png');
+	background-image: url('../images/backgrounds/gotf.png');
 }
 body#howl{
-	background-image: url('howl.jpg');
+	background-image: url('../images/backgrounds/howl.jpg');
 }
 body#totoro{
-	background-image: url('totoro.jpg');
+	background-image: url('../images/backgrounds/totoro.jpg');
 }
 body#mononoke{
-	background-image: url('mononoke.jpg');
+	background-image: url('../images/backgrounds/mononoke.jpg');
 }
 body#spiritedaway{
-	background-image: url('spiritedaway.jpg');
+	background-image: url('../images/backgrounds/spiritedaway.jpg');
 }
 body#ponyo{
-	background-image: url('ponyo.jpg');
+	background-image: url('../images/backgrounds/ponyo.jpg');
 }
 section.info{
 	margin-top: 10px;
